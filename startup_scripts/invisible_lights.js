@@ -13,12 +13,12 @@ onEvent("block.registry", event => {
             .transparent(true)
             .lightLevel(i / 15)
             .box(0, 0, 0, 0, 0, 0, true)
-            .item(item => item.modelJson({
+            .item(item => item.modelJson = {
                 "parent": "minecraft:item/generated",
                 "textures": {
                     "layer0": `invisiblelightsjs:item/light_${i}`
                 }
-            }))
+            })
             .displayName(`Invisible Light (Level ${i})`)
     }
 })
