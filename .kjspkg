@@ -1,0 +1,13 @@
+{
+  "author": "G_cat",
+  "description": "Jankily backports some of the functionality the 1.18+ light blocks have to 1.16",
+  "versions": [
+    6
+  ],
+  "modloaders": [
+    "forge",
+    "fabric"
+  ],
+  "dependencies": [],
+  "incompatabilities": []
+}
